@@ -17,7 +17,7 @@ def mini(releve, date):
     print("Les entrées doivent être des listes")
     return (None, None)
   
-  if len(releve) != 1 or len(date) != 1:
+  if len(releve) < 1 or len(date) < 1:
     print("Les listes ne doivent pas etre vides")
     return (None, None)
     
